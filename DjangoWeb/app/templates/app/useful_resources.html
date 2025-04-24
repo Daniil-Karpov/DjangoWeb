@@ -1,0 +1,17 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+
+    <h2>{{ title }}.</h2>    
+
+    <a href="https://market.yandex.ru/?clid=506&utm_source=ntp_chrome"><img src="{% static 'app/content/logo.jpg' %}" alt="Logo1" width="200" height="150" /></a>
+    <a href="https://yandex.ru/maps/25/pskov/?ll=28.332792%2C57.819307&utm_source=ntp_chrome&z=12"><img src="{% static 'app/content/logo.jpg' %}" alt="Logo2" width="200" height="150"></a>
+    <a href="https://translate.yandex.ru/?utm_source=ntp_chrome"><img src="{% static 'app/content/logo.jpg' %}" alt="Logo3" widt h="200" height="150"></a>
+    
+    
+    <h3>{{ message }}</h3>
+    <p>Используйсте эту область для предостановления дополнительной информации</p>
+
+{% endblock %}

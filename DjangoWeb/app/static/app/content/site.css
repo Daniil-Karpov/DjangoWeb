@@ -1,0 +1,90 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.comment-form {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.comments-list {
+    margin-top: 30px;
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-left: 4px solid #6c757d;
+    background: #f8f9fa;
+    border-radius: 0 5px 5px 0;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.comment-date {
+    color: #6c757d;
+}
+
+.comment-text {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.alert-login {
+    margin: 20px 0;
+    padding: 10px;
+    background: #e2f0fd;
+    border-left: 4px solid #007bff;
+    color: #004085;
+}
