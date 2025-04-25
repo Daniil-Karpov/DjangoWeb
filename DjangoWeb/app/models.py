@@ -16,7 +16,7 @@ class Blog(models.Model):
     title = models.CharField(max_length=100, unique_for_date="posted", verbose_name="Заголовки")
     description = models.TextField(verbose_name = "Краткое содержание")
     content = models.TextField(verbose_name="Полное содержание")
-    poster = models.DateTimeField(default=datetime.now(), db_index=True, verbose_name="Опубликована")
+    posted = models.DateTimeField(default=datetime.now(), db_index=True, verbose_name="Опубликована")
     author = models.ForeignKey(User, null=True, blank=True, on_delete = models.SET_NULL, verbose_name = "Автор")
     image = models.FileField(default='temp.jpg', verbose_name ='Путь к картинке' )
 
@@ -28,7 +28,7 @@ class Blog(models.Model):
 
     class Meta:
         db_table="Postes"
-        ordering = ["-poster"]
+        ordering = ["-posted"]
         verbose_name = "статья блога"
         verbose_name_plural = "статьи блога"
 

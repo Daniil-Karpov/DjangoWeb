@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="142006d9-c1d8-409d-89d6-3b20c8309ffd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,6 +10,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Daniil-Karpov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Daniil-Karpov/DjangoWeb.git",
+    "accountId": "dc5626c4-cfe7-45cd-971e-abb0a0197bf5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -19,8 +37,10 @@
   "keyToString": {
     "Python.manage.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Files/University/2_course/Разработка профессиональных приложений/Lab3_flask",
+    "last_opened_file_path": "D:/Files/University/2_course/Python_WEB/Topic_4",
     "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
@@ -41,5 +61,16 @@
       <updated>1744051987726</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
